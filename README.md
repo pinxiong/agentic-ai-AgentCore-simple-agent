@@ -37,8 +37,12 @@ aws sts get-caller-identity
 ### Install dependencies 
 
 ```shell
+
 # Download the project
 git clone git@github.com:pinxiong/agentic-ai-AgentCore-simple-agent.git
+
+# Initialize python project
+uv init agentic-ai-AgentCore-simple-agent --python 3.14
 
 # enter the project
 cd agentic-ai-AgentCore-simple-agent
